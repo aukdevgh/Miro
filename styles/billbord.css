@@ -1,0 +1,46 @@
+.billbord {
+  padding: 120px 30px;
+  background-color: var(--color-primary);
+  border-radius: var(--radius-16);
+}
+
+.border__content {
+  max-width: 700px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.billbord__title {
+  color: var(--color-white);
+}
+
+.billbord__text {
+  margin: 0;
+  color: var(--color-white);
+  opacity: 0.6;
+}
+
+.billbord__link {
+  margin-bottom: 40px;
+  color: var(--color-white);
+  opacity: 0.6;
+}
+
+.billbord__link:focus,
+.billbord__link:hover {
+  opacity: 1;
+}
+
+.billbord__button {
+  width: max-content;
+}
+
+@media screen and (max-width: 640px) {
+  .billbord {
+    padding: 60px 20px;
+  }
+}

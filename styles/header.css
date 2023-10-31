@@ -1,0 +1,45 @@
+/* Header */
+
+.header {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  border-bottom: 1px solid var(--color-gray-94);
+}
+
+.header .hero-buttons {
+  margin-left: auto;
+}
+
+.nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 34px;
+  font-size: 16px;
+}
+
+.nav__item a {
+  transition: color .3s ease;
+}
+
+.nav__item a:focus,
+.nav__item a:hover {
+  color: var(--color-text);
+}
+
+
+@media screen and (max-width: 960px) {
+  .nav {
+    display: none;
+  }
+
+  .header>.hero-buttons {
+    display: none;
+  }
+}
