@@ -9,6 +9,10 @@
   gap: 27px;
 }
 
+.review__title{
+  text-align: center;
+}
+
 .review__button {
   width: max-content;
 }
